@@ -3,9 +3,8 @@
 #import "Obstacle.h"
 
 @implementation GamePlayScene
-[self addObstacle];
 
-- (void)initialize{
+- (void)initialize
     // your code here
     character = (Character*)[CCBReader load:@"Character"];
     [physicsNode addChild:character];
