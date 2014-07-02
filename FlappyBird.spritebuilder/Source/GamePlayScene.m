@@ -3,9 +3,8 @@
 #import "Obstacle.h"
 
 @implementation GamePlayScene
-
-- (void)initialize
-{[self addObstacle];
+{
+- (void)initialize[self addObstacle];
     
     // your code here
     character = (Character*)[CCBReader load:@"Character"];
