@@ -3,12 +3,10 @@
 #import "Obstacle.h"
 
 @implementation GamePlayScene
+
+- (void)initialize
 {
-- (void)initialize[self addObstacle];
-    
     // your code here
-    character = (Character*)[CCBReader load:@"Character"];
-    [physicsNode addChild:character];
 }
 
 -(void)update:(CCTime)delta
@@ -21,4 +19,5 @@
     // this will get called every time the player touches the screen
     [character flap];
 }
+
 @end
