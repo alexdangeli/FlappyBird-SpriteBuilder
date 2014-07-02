@@ -19,7 +19,7 @@ character = (Character*)[CCBReader load:@"Character"];
     // this will get called every time the player touches the screen
 }
         // this will get called every time the player touches the screen
-    [[Character flap];
+    [[Character flap]];
      
 // put new methods here
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
